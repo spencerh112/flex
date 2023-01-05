@@ -5,6 +5,7 @@ h1 {
 .container {
     display: flex;
     border: 5px solid red;
+    flex-direction: row;
 }
 
 .container > div {
@@ -15,4 +16,9 @@ h1 {
 .container > .search {
     flex: 2;
     background-color: peachpuff;
+}
+
+.pages {
+    display: flex;
+    flex-direction: column;
 }
