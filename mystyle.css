@@ -2,20 +2,27 @@ h1 {
     color: red;
 }
 
-.container {
+.header {
     display: flex;
     border: 5px solid red;
-    flex-direction: row;
+    align-items: center;
+}
+.container {
+    border: 2px solid red;
 }
 
 .container > div {
-    padding: 5px;
-    flex: 1;
+    text-align: center;
+    flex: auto;
 }
 
 .container > .search {
     flex: 2;
     background-color: peachpuff;
+}
+
+.header > h1 {
+    justify-content: start;
 }
 
 .pages {
