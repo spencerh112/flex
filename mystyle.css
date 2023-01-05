@@ -1,3 +1,18 @@
 h1 {
     color: red;
 }
+
+.container {
+    display: flex;
+    border: 5px solid red;
+}
+
+.container > div {
+    padding: 5px;
+    flex: 1;
+}
+
+.container > .search {
+    flex: 2;
+    background-color: peachpuff;
+}
