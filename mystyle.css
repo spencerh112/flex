@@ -5,22 +5,24 @@ h1 {
 .header {
     display: flex;
     border: 5px solid red;
-    
+    align-items: center;
 }
 .container {
     border: 2px solid red;
     display: flex;
-    align-items: center;
+    font-size: 25px;
+    justify-content: space-around;
+    flex: 1;
 }
 
 
 .container > .search {
-    flex: 2;
     background-color: peachpuff;
+    flex: 2;
 }
 
 .header > h1 {
-    justify-content: start;
+    flex: 1;
 }
 
 .pages {
