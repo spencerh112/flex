@@ -5,16 +5,14 @@ h1 {
 .header {
     display: flex;
     border: 5px solid red;
-    align-items: center;
+    
 }
 .container {
     border: 2px solid red;
+    display: flex;
+    align-items: center;
 }
 
-.container > div {
-    text-align: center;
-    flex: auto;
-}
 
 .container > .search {
     flex: 2;
